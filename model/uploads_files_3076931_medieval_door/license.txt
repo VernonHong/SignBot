@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medieval Door
+* source:	https://sketchfab.com/3d-models/medieval-door-4d8b766cc80344cdb95e3a0473e13bb9
+* author:	Rahulkrishna (https://sketchfab.com/Krishna_Bros)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medieval Door" (https://sketchfab.com/3d-models/medieval-door-4d8b766cc80344cdb95e3a0473e13bb9) by Rahulkrishna (https://sketchfab.com/Krishna_Bros) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
