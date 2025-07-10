@@ -39,7 +39,7 @@ loader.load('https://github.com/mrdoob/three.js/blob/3b1ff7661884f26e6d9af1d94c2
 
 //door
 var loader_2 = new THREE.GLTFLoader();
-loader_2.load('../model/uploads_files_3076931_medieval_door/scene.gltf', function (gltf) {
+loader_2.load('https://vernonhong.github.io/SignBot/model/uploads_files_3076931_medieval_door/scene.gltf', function (gltf) {
     door_model = gltf.scene;
 
     door_model.position.z = -15
@@ -56,7 +56,7 @@ loader_2.load('../model/uploads_files_3076931_medieval_door/scene.gltf', functio
 });
 //button
 var loader_3 = new THREE.GLTFLoader();
-loader_3.load('../model/scifi_button/scene.gltf', function (gltf) {
+loader_3.load('https://vernonhong.github.io/SignBot/model/scifi_button/scene.gltf', function (gltf) {
     button_model = gltf.scene;
     button_model.position.x = 3
     gltf.name = 'button';
@@ -165,7 +165,7 @@ function openSign() {
 stats = new Stats();
 //document.body.appendChild(stats.domElement);
 //skybox
-const r = '../texture/';
+const r = 'https://vernonhong.github.io/SignBot/texture/';
 
 const urls = [
     r + 'tron_ft.png', r + 'tron_bk.png',
@@ -194,7 +194,7 @@ dirLight.position.set(0, 20, 10);
 scene.add(dirLight);
 //sign_model
 var loader_4 = new THREE.GLTFLoader();
-loader_4.load('../model/lightning_capsule/scene.gltf', function (gltf) {
+loader_4.load('https://vernonhong.github.io/SignBot/model/lightning_capsule/scene.gltf', function (gltf) {
     sign_model = gltf.scene;
     sign_model.position.x = 3
     sign = new THREE.Object3D()
@@ -293,9 +293,9 @@ document.addEventListener('mousedown', () => {
         state = 3;
         sign_context = Math.floor(Math.random() * 3 + 1);
         switch (sign_context) {
-            case 1: url = '../texture/sign_context/level1.png';break;
-            case 2: url = '../texture/sign_context/level2.png';break;
-            case 3: url = '../texture/sign_context/level3.png';break;
+            case 1: url = 'https://vernonhong.github.io/SignBot/texture/sign_context/level1.png';break;
+            case 2: url = 'https://vernonhong.github.io/SignBot/texture/sign_context/level2.png';break;
+            case 3: url = 'https://vernonhong.github.io/SignBot/texture/sign_context/level3.png';break;
         }
         //load pic
         const textureLoader = new THREE.TextureLoader();
@@ -315,7 +315,7 @@ document.addEventListener('mousedown', () => {
 
 });
 //conversation
-const pics_url = '../texture/conversation/'
+const pics_url = 'https://vernonhong.github.io/SignBot/texture/conversation/'
 const pic_url = ['pic_hi.png','pic_yes.png','pic_no.png','pic_punch.png','pic_TU.png']
 let pic_name = ['hi','yes','no','punch','TU']
 let c_pics=[];
