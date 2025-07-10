@@ -26,7 +26,7 @@ clock = new THREE.Clock();
 //load model
 model = new THREE.Object3D();
 var loader = new THREE.GLTFLoader();
-loader.load('https://github.com/mrdoob/three.js/blob/3b1ff7661884f26e6d9af1d94c293129aaba885c/examples/models/gltf/RobotExpressive/RobotExpressive.glb', function (gltf) {
+loader.load('https://vernonhong.github.io/SignBot/model/RobotExpressive.glb', function (gltf) {
     model = gltf.scene;
 
     scene.add(model);
